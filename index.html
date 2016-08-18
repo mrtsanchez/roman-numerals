@@ -15,10 +15,31 @@
         <h1>Convert Numbers to Roman Numerals</h1>
         <div class="form-group">
           <label for="numberInput">Enter a number</label>
-          <input id="numberInput" type="text" class="form-control">
-          <button type="submit" class="btn btn-warning">Submit</button>
+          <input id="numberInput" type="number" class="form-control" placeholder="Your Number Here" required>
         </div>
+        <button type="submit" class="btn btn-warning">Convert</button>
       </form>
     </div>
+
+    <div class="container result">
+      <p>
+        Your number in Roman is: <span id="roman-output"></span>
+      </p>
+    </div>
+
+    <div class="container wrong-input">
+      <p>
+        <span id="wrong-input"></span> is not a Roman number, dude!
+        <img src="img/angry-gladiator.jpg" class="img-responsive" alt="angry gladiator" />
+      </p>
+    </div>
+
+    <div class="container no-negatives">
+      <p>
+        <span id="no-negatives"></span> is a negative number, we just don't do that.
+        <img src="img/angry-gladiator.jpg" class="img-responsive" alt="angry gladiator" />
+      </p>
+    </div>
+
   </body>
 </html>

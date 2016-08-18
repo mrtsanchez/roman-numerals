@@ -1,4 +1,4 @@
-# SRoman Numerals
+# Roman Numerals
 
 This is a method to convert numbers into Roman numerals.
 
@@ -10,10 +10,7 @@ This is a method to convert numbers into Roman numerals.
 | If the number is 0 | 0 | Not a roman number |
 | If the number is negative | - 2 | Not a roman number |
 | If the number is bigger than 3,999 | 5698 | Not a roman number |
-| If a single number matches one of the roman symbols, it should return the symbol | 5 | V |
-| If a tenth number matches one of the roman symbols, it should return the symbol | 5 | V |
-
-
+| If the number is between 1 and 3,999 | 2345 | MMCCCXLV |
 
 ## Credits
 
